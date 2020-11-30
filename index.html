@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banshee</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- TIPOGRAFIAS -->
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@800&display=swap"
+          rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+          crossorigin="anonymous"/>
+
+    <!-- swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+</head>
+<body>
+
+<header>
+    <div class="max-width">
+        <div class="content">
+            <div class="text-icon">
+                Banshee
+            </div>
+
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="navigate">
+                <a href="#quien-soy">¿Quien soy?</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+
+        </div>
+    </div>
+
+</header>
+
+<div class="menu-movil hide-menu">
+
+    <div class="icon-close">
+        <i class="far fa-times-circle"></i>
+    </div>
+
+    <nav class="navigate-movil">
+        <a href="#quien-soy">¿Quien soy?</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</div>
+
+<!----- HEADER ----->
+<div class="content-header">
+
+    <img src="img/top.svg">
+
+    <div class="text-top">
+        Bienvenidos
+    </div>
+
+    <div class="text-bot">
+        A mi mundo!
+    </div>
+
+    <div class="viper">
+        <img src="img/viper.svg">
+    </div>
+</div>
+<!-- ------------ -->
+
+<div class="max-width">
+
+    <!-- QUIEN SOY -->
+
+    <div id="quien-soy" class="medium-content">
+        <h1>¿Quien soy?</h1>
+
+        <p>
+            Mi nombre es Lorena apasionada de las nuevas tecnologias, nacida en Mayo del 92, actualmente
+            resido en Yuncos, Toledo.
+        </p>
+
+        <p>
+            Me considero una persona detallista, y se trabajar en equipo.
+        </p>
+    </div>
+
+    <!-- --------- -->
+
+    <h2 class="hobbies">Aficiones</h2>
+
+    <!-- AFICIONES -->
+    <div class="content-hobbies medium-content-hobbies">
+        <p>
+            Más abajo muestro mis grandes aficiones:
+        </p>
+
+        <p>
+            Jugadora desde que mi padre me dejó tocar el mando, desde entonces no lo he podido soltar.
+            Tengo todas las consolas, pero la xbox es mi niña bonita.
+        </p>
+
+        <p>
+            Empece a vectorizar imagenes, hace un año, y es a lo que me he dedicado hacer durante gran parte
+            de la pandemia.
+        </p>
+
+        <h2>Xbox</h2>
+
+        <div class="content-xbox">
+
+            <div class="image-xbox">
+                <img src="img/image.png">
+
+                <h2 class="name">Lors13</h2>
+
+                <div class="content-game">
+
+                    <div>
+                        <div class="number">17.328<i class="fas fa-trophy"></i></div>
+                        <div>Logros</div>
+                    </div>
+
+                    <div>
+                        <div class="number">390,233<span>G</span></div>
+                        <div>Gamescore</div>
+                    </div>
+
+                    <div>
+                        <div class="number">638<i class="fas fa-gamepad"></i></div>
+                        <div>Juegos</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <h2>Vectores</h2>
+
+        <div class="tabs-content">
+
+            <div class="tab">
+                <button class="tablinks" onclick="openImg(event, 'infantil')">Infantil</button>
+                <button class="tablinks" onclick="openImg(event, 'ilustracion')">Ilustración</button>
+                <button class="tablinks" onclick="openImg(event, 'dibujos')">Dibujos</button>
+                <button class="tablinks" onclick="openImg(event, 'cat')">Mi gato</button>
+            </div>
+
+            <div id="infantil" class="tabcontent" style="display: block">
+
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/cerdo.png">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="img/pricipeso.jpeg">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="img/nosquito.svg">
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+            <div id="ilustracion" class="tabcontent">
+
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/dia.png">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="img/noche.svg">
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+            <div id="dibujos" class="tabcontent">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/imgs/1.jpg">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="img/imgs/2.jpg">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="img/imgs/3.jpg">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="img/imgs/4.jpg">
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div id="cat" class="tabcontent">
+
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/cat/1.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cat/2.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cat/3.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cat/4.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cat/5.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cat/6.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cat/7.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cat/9.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cat/10.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cat/11.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cat/12.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cat/13.jpg">
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- --------- -->
+
+    <h2 id="portfolio" class="hobbies">Portfolio</h2>
+
+    <!-- PORTFOLIO -->
+    <div class="content-hobbies medium-content-hobbies">
+
+        <div class="portfolio-position">
+            <div class="content-project">
+                <h3>Wannabot</h3>
+                <div class="content-image-text">
+
+                    <!--div class="background-image"></div-->
+
+                    <div class="max-image">
+
+                        <img src="img/wannabot/1.png">
+
+                    </div>
+
+                    <div class="content-text">
+                        <div class="text-portfolio">
+                            Mi primer proyecto, ya estaba empezado cuando entré a trabajar, cambie todo el backend de
+                            javaScript a typeScript, parte del front y Algo de documentación.
+                        </div>
+
+                        <div class="position-a">
+                            <a href="detail-portfolio.html">Ver mas<i class="fas fa-angle-right"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="content-project">
+                <h3>Mousee</h3>
+                <div class="content-image-text">
+
+                    <div class="max-image">
+
+                        <img src="img/mousee/1.png">
+
+                    </div>
+
+                    <div class="content-text">
+                        <div class="text-portfolio">
+                            En mousse me dediqué solo al frontend, mauqueté gran parte del proyecto.<br><br>
+                            Útilizando Boostrap y con angular 2.
+                        </div>
+
+                        <div class="position-a">
+                            <a href="detail-portolio-mousee.html">Ver mas<i class="fas fa-angle-right"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="content-project">
+                <h3>Corte Ingles</h3>
+                <div class="content-image-text">
+
+                    <div class="max-image">
+
+                        <img src="img/ci/1.png">
+
+                    </div>
+
+                    <div class="content-text">
+                        <div class="text-portfolio">
+                            Maquetación del Back office del corte ingles.<br><br><br>
+                            Útilizando Boostrap y con angular 2.
+                        </div>
+
+                        <div class="position-a">
+                            <a href="detail-portfolio-ci.html">Ver mas<i class="fas fa-angle-right"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="content-project">
+                <h3>Cristian lay</h3>
+                <div class="content-image-text">
+
+                    <div class="max-image">
+                        <img src="img/cl.png">
+                    </div>
+
+                    <div class="content-text">
+                        <div class="text-portfolio">
+                          Web de Cristian Lay hice algo de maquetación y responsive.
+
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                        </div>
+
+                        <div class="position-a">
+                            <a href="https://www.cristianlay.com/es/">Ver web<i class="fas fa-angle-right"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- --------- -->
+</div>
+
+<footer id="contact">
+    <div class="content-footer">
+        <div>
+            <h2>Contancto</h2>
+            <div>Email: banshee9213@gmail.com</div>
+        </div>
+
+        <div>
+            <div class="content-rrs">
+                <h2>Redes sociales</h2>
+                <div>
+                    <span class="rrss"><a href="https://www.instagram.com/banshee__92"><i class="fab fa-instagram"></i></a></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="index.js"></script>
+
+
+
+</body>
+</html>

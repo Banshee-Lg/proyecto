@@ -1,0 +1,699 @@
+body {
+    background-color: #F7F7F7;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.swiper-container .swiper-pagination {
+    display: none;
+}
+
+/* HEADER */
+
+.menu-movil {
+    display: none;
+}
+
+header {
+    background-color: white;
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.max-width {
+    padding: 0 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text-icon {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 40px;
+    color: #584949;
+}
+
+.navigate a {
+    padding-left: 20px;
+    cursor: pointer;
+    color: #333;
+    transition: 300ms;
+}
+
+.navigate a:hover {
+    color: #111;
+}
+
+/* ------------ */
+/* HEADER */
+
+.content-header {
+    padding: 0 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content-header img {
+    width: 100%;
+}
+
+.text-top {
+    position: absolute;
+    top: 37px;
+    right: 450px;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 14px;
+}
+
+.text-bot {
+    position: absolute;
+    bottom: 72px;
+    right: 200px;
+    color: #F7F7F7;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 14px;
+}
+
+.viper {
+    width: 27%;
+    height: auto;
+    position: absolute;
+    bottom: 8px;
+    left: 71px;
+}
+
+.viper img {
+    width: 100%;
+}
+
+/* ------------ */
+
+/* QUIEN SOY */
+
+.hobbies {
+    padding-top: 24px;
+    text-align: center;
+}
+
+.content-hobbies p {
+    padding-bottom: 20px;
+}
+
+.content-hobbies {
+    padding: 20px 40px 40px 40px;
+    background-color: white;
+}
+
+.medium-content {
+    margin: 40px 70px;
+}
+
+.medium-content-hobbies {
+    margin: 40px 70px;
+}
+
+
+.content-xbox {
+    background-color: #228F22;
+    margin-bottom: 30px;
+}
+
+.image-xbox {
+    text-align: center;
+}
+
+.image-xbox img {
+    margin-top: -75px;
+    width: 150px;
+    border-radius: 50%;
+    height: auto;
+    border: 4px solid white;
+}
+
+.name {
+    color: white;
+}
+
+.content-game {
+    margin: 0 20px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.content-game div {
+    color: white;
+    font-size: 30px;
+}
+
+.number {
+    padding-bottom: 10px;
+}
+
+.number i, .number span {
+    padding-left: 10px;
+}
+
+/* TAPS */
+.tabs-content {
+
+}
+
+.tab {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-bottom: 3px solid #F7F7F7;
+    padding-bottom: 30px;
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 14px 0 16px;
+    font-size: 17px;
+}
+
+
+.tab button:first-child {
+    border-top-left-radius: 10px;
+}
+
+.tab button:last-child {
+    border-top-right-radius: 10px;
+}
+
+.tab button:hover {
+    border-bottom: solid 2px black;
+}
+
+.tab button:hover i{
+    display: block;
+}
+
+.tab button.active {
+    color: black;
+    border-bottom: solid 2px black;
+}
+
+button {
+    display: flex;
+}
+
+.tabcontent {
+    display: none;
+    padding: 40px 0 0 0;
+    height: 400px;
+}
+
+
+.image {
+    background-image: url("../img/cerdo.png");
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.position-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.position-image div {
+    padding-right: 25px;
+}
+
+.position-image div:first-child {
+    padding-left: 50px;
+}
+
+.position-image div h4.name-i {
+    text-align: center;
+}
+
+.size-img {
+    width: 250px;
+    height: auto;
+}
+
+.size-img-n {
+    width: 108px;
+    height: auto;
+}
+.position-image img {
+  width: 100%;
+}
+
+.content-image-text {
+    max-width: 300px;
+    background-color: #F7F7F7;
+    margin: 0 5px;
+}
+
+.content-image-text img{
+    width: 100%;
+    height: auto;
+    max-height: 160px;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.content-image-text a {
+    text-decoration: underline;
+}
+
+.content-image-text .position-a {
+    text-align: right;
+}
+
+.max-image {
+    overflow: hidden;
+}
+
+.content-text {
+    padding: 20px;
+}
+
+.portfolio-position {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.content-project {
+    flex: 25%;
+}
+
+.content-image-text img:hover {
+    transform: scale(1.3);
+}
+
+.content-image-text a {
+    cursor: pointer;
+}
+
+.content-image-text a i {
+    transform: translateY(2px);
+    padding-left: 5px;
+}
+
+.text-portfolio {
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #202020;
+}
+
+.content-footer {
+    padding: 20px 40px 40px 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+input {
+
+}
+
+.content-footer {
+    display: -webkit-flex;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
+
+
+/* swiper*/
+
+.swiper-container {
+    border-bottom: 3px solid #F7F7F7;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+}
+
+.swiper-slide img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+/*Wannabot*/
+
+.content a {
+    text-decoration: none;
+}
+
+.content-wannabot {
+    margin-left: 10px;
+}
+
+.content-wannabot p {
+    margin-left: 20px;
+}
+
+.wannabot {
+    margin: 40px;
+}
+
+.wannabot img {
+    width: 250px;
+    height: auto;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.wannabot img:hover {
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 1px 18px 6px rgba(0,0,0,0.67);
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    background: #000000d6;
+    opacity: 0;
+    pointer-events: none;
+    transition: 300ms;
+}
+
+.modal i {
+    cursor: pointer;
+}
+
+.modal.show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal .modal-content {
+}
+
+.modal .modal-content img {
+    max-width: 90%;
+    max-height: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal div i {
+    color: #F7F7F7;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 50px;
+}
+
+.content-ci {
+    margin: 40px 40px 700px 40px;
+}
+
+
+.mousee {
+    margin: 40px;
+}
+
+.mousee img {
+    width: 250px;
+    height: auto;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    max-height: 150px;
+}
+
+.mousee img:hover {
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 1px 18px 6px rgba(0,0,0,0.67);
+}
+
+.rrss {
+    cursor: pointer;
+}
+
+.rrss i {
+    color: white;
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media all and (max-width: 768px) {
+    body {
+
+    }
+
+    .text-top {
+        top: 16px;
+        right: 170px;
+        font-size: 28px;
+        letter-spacing: 11px;
+    }
+
+    .text-bot {
+        font-size: 28px;
+        letter-spacing: 11px;
+        bottom: 33px;
+        right: 94px;
+    }
+
+    .viper {
+        width: 30%;
+        bottom: 3px;
+        left: 78px;
+    }
+
+    .max-width {
+        padding: 0;
+    }
+
+    .medium-content {
+        margin: 40px 40px;
+    }
+
+    .medium-content-hobbies {
+        margin: 40px 0;
+    }
+
+    .medium-content-hobbies p{
+        padding-bottom: 35px;
+    }
+
+    .content-game div {
+        font-size: 21px;
+    }
+
+    .content-project {
+        flex: 50%;
+    }
+
+}
+
+/* Media Query for Mobile Devices */
+@media all and (max-width: 600px) {
+    body {
+
+    }
+
+    .content {
+        display: block;
+    }
+
+    .text-icon {
+        padding-left: 20px;
+    }
+
+    .navigate {
+        display: none;
+    }
+
+    .content-header {
+        padding: 0;
+    }
+
+    .viper {
+        width: 41%;
+        bottom: 3px;
+        left: 14px;
+    }
+
+    .text-top {
+        letter-spacing: normal;
+        top: 4px;
+        right: 60px;
+        font-size: 24px;
+    }
+
+    .text-bot {
+        letter-spacing: normal;
+        right: 35px;
+        bottom: 19px;
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .content-project {
+        flex: 100%;
+    }
+
+    .content-image-text {
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .content-game {
+        margin: 0;
+    }
+
+    .tab button {
+        font-size: 14px;
+    }
+
+    .content-game div {
+        font-size: 14px;
+    }
+
+    .content-footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content-footer div{
+        flex: 100%;
+    }
+
+    .content-rrs {
+        padding: 30px 0 20px 0;
+       text-align: center;
+    }
+
+    /* Menu mobile */
+
+    header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 20;
+    }
+
+    .icon-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+        color: #202020;
+    }
+
+    .menu-movil {
+        display: block;
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        z-index: 21;
+        position: fixed;
+        transition: 300ms;
+        top: 0;
+        left: 0;
+    }
+
+    .menu-movil .navigate-movil {
+       text-align: center;
+    }
+
+    .menu-movil .navigate-movil a {
+        margin: 20px 0;
+        display: block;
+        font-size: 24px;
+        color: #333;
+        transition: 300ms;
+        text-decoration: none;
+    }
+
+    .menu-movil .navigate-movil a:first-child {
+        padding-top: 35px;
+    }
+
+    .hide-menu {
+        transform: translateX(110%);
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .burger-menu i {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 24px;
+        color: #202020;
+    }
+
+    .content-header {
+        margin-top: 145px;
+    }
+
+    .menu-movil-padding {
+        margin-top: 85px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .swiper-container .swiper-pagination {
+        display: block;
+    }
+
+}
+
+
